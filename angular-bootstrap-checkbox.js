@@ -4,7 +4,7 @@ angular.module("ui.checkbox", []).directive("checkbox", function() {
 	return {
 		scope: {},
 		require: "ngModel",
-		restrict: "E",
+		restrict: "AEC",
 		//replace: "true",
 		templateUrl: 'template/angular-bootstrap-checkbox/checkbox.html',
 		link: function(scope, elem, attrs, modelCtrl) {
